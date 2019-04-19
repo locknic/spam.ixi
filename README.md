@@ -16,6 +16,6 @@ Note: You can also build this module yourself as with any other
 
 ## Configuration
 
-`INTERVAL_MS`: The millisecond interval between each spam transaction. (e.g. `1000` = 1 spam transaction a second)
+`INTERVAL_MS`: The millisecond interval between each spam transaction. (e.g. `1000` = 1 second day after finishing a transaction before starting another one)
 
 Note: In order to specify an interval lower than 1000, you must add the `f` flag to your configured interval. (e.g. `500f`)
