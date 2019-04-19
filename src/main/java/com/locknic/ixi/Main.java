@@ -1,4 +1,4 @@
-package org.iota.ixi;
+package com.locknic.ixi;
 
 import org.iota.ict.Ict;
 import org.iota.ict.utils.Constants;
