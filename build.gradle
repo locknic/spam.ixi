@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.locknic'
-version '0.1'
+version '0.2'
 
 sourceCompatibility = 1.7
 
@@ -20,7 +20,7 @@ dependencies {
 }
 
 task ixi(type: Jar) {
-    archiveName = 'spam.ixi.jar'
+    archiveName = 'spam.ixi-0.2.jar'
     destinationDir = file("$rootDir")
     from("./") { include 'module.json' }
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }

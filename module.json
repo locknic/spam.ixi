@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "name": "Spam.ixi",
   "main_class": "com.locknic.ixi.SpamIxi",
   "description": "This IXI module creates and broadcasts a random spam transaction based on configurations",
